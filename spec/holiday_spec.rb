@@ -28,8 +28,8 @@ describe "holiday_supplies_hash" do
       end
     end
     bbq_holidays
-        
-  
+
+
 
 
  # Question 1
