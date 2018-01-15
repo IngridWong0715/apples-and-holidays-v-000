@@ -17,17 +17,7 @@ describe "holiday_supplies_hash" do
       }
     }
   }
-  bbq_holidays = []
-    holiday_hash.each do |season, holiday_supply|
-      holiday_supply.each do |holiday, supplies|
-        supplies.each do |supply|
-          if supply.include?("BBQ")
-            bbq_holidays << holiday
-          end
-        end
-      end
-    end
-    bbq_holidays
+
 
 
 
